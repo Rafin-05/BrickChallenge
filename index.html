@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRICK. — One Brick. Zero Compromises.</title>
+    <meta name="description"
+        content="Experience the ultimate in foundational luxury. The last brick you'll ever need. Forged at 1,000°C.">
+    <meta name="theme-color" content="#211f1d">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='10' y='30' width='80' height='40' fill='%239c3b26' rx='5'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-ring" id="cursor-ring"></div>
+
+    <nav class="navbar nav-slide-down">
+        <div class="logo">BRICK<span class="accent-dot" aria-hidden="true">.</span></div>
+        <div class="nav-links">
+            <a href="#craft">The Craft</a>
+            <a href="#forge">The Forge</a>
+            <a href="#acquire">Acquire</a>
+        </div>
+        <div class="nav-actions">
+            <button class="nav-pill"
+                onclick="document.getElementById('acquire').scrollIntoView({behavior: 'smooth'})">Reserve Yours</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero fade-in-up">
+            <video autoplay loop muted playsinline class="hero-bg-video" aria-hidden="true">
+                <source src="asset/A_red_clay_brick_falls_in_extr.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+                <div class="eyebrow">HANDCRAFTED · KILN NO. 7 · EST. FOREVER</div>
+                <h1 class="hero-title">The Last Brick You'll Ever Need.</h1>
+                <p class="hero-subtitle">Meticulously sourced clay, fired at a relentless 1,000°C to achieve absolute
+                    perfection. The quintessential structural masterpiece.</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn"
+                        onclick="document.getElementById('acquire').scrollIntoView({behavior: 'smooth'})">Reserve Yours
+                        — $499</button>
+                    <button class="secondary-btn"
+                        onclick="document.getElementById('craft').scrollIntoView({behavior: 'smooth'})">The
+                        Story</button>
+                </div>
+            </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="craft" class="craft-section">
+            <div class="content-wrapper craft-grid">
+                <div class="craft-left" aria-hidden="true">
+                    <div class="sticky-brick-wrapper" id="sticky-brick">
+                        <div class="brick-scene scroll-brick-scene">
+                            <div class="brick-cube scroll-brick">
+                                <div class="face front"><span class="embossed-text">BRICK.</span></div>
+                                <div class="face back"></div>
+                                <div class="face right"></div>
+                                <div class="face left"></div>
+                                <div class="face top">
+                                    <div class="frog"></div>
+                                </div>
+                                <div class="face bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="craft-right">
+                    <div class="chapter fade-in-scroll">
+                        <div class="chapter-eyebrow">CHAPTER I</div>
+                        <h3 class="chapter-title">Forged at 1,000°C</h3>
+                        <p>Subjected to temperatures that would melt lesser objects. This isn't just baking; it's a
+                            baptism by fire. The result is a structure impervious to the whims of time.</p>
+                    </div>
+                    <div class="chapter fade-in-scroll">
+                        <div class="chapter-eyebrow">CHAPTER II</div>
+                        <h3 class="chapter-title">2.3kg of Pure Commitment</h3>
+                        <p>In an age of weightless data, heft is the ultimate luxury. When you hold BRICK., you hold
+                            consequence. It anchors you to reality in the most brutalist sense imaginable.</p>
+                    </div>
+                    <div class="chapter fade-in-scroll">
+                        <div class="chapter-eyebrow">CHAPTER III</div>
+                        <h3 class="chapter-title">The Perfect Imperfection</h3>
+                        <p>No two BRICKs are identical. Hand-textured and naturally porous, each bears the unique scars
+                            of its creation. It is a canvas of brutal honesty.</p>
+                    </div>
+                    <div class="chapter fade-in-scroll">
+                        <div class="chapter-eyebrow">CHAPTER IV</div>
+                        <h3 class="chapter-title">Unyielding Geometry</h3>
+                        <p>215 × 102.5 × 65 millimeters. A golden ratio of structural integrity. It requires no updates,
+                            no charging, and no subscriptions. It just is.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="forge" class="tech-specs-band">
+            <div class="content-wrapper">
+                <h2 class="fade-in-scroll">Technical Specifications</h2>
+                <div class="tech-grid">
+                    <div class="tech-item fade-in-scroll stagger-1">
+                        <span class="tech-label">Weight</span>
+                        <span class="tech-value">2.3 kg</span>
+                    </div>
+                    <div class="tech-item fade-in-scroll stagger-2">
+                        <span class="tech-label">Wi-Fi</span>
+                        <span class="tech-value">No</span>
+                    </div>
+                    <div class="tech-item fade-in-scroll stagger-3">
+                        <span class="tech-label">Battery Life</span>
+                        <span class="tech-value">∞</span>
+                    </div>
+                    <div class="tech-item fade-in-scroll stagger-4">
+                        <span class="tech-label">Firmware</span>
+                        <span class="tech-value">Clay</span>
+                    </div>
+                    <div class="tech-item fade-in-scroll stagger-5">
+                        <span class="tech-label">Water Resistance</span>
+                        <span class="tech-value">100%</span>
+                    </div>
+                    <div class="tech-item fade-in-scroll stagger-6">
+                        <span class="tech-label">Cloud Sync</span>
+                        <span class="tech-value">Requires Throwing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="philosophy" class="philosophy-section">
+            <div class="content-wrapper philosophy-grid">
+                <!-- Top Left: Empty -->
+                <div class="grid-empty"></div>
+
+                <!-- Top Right: Header -->
+                <div class="philosophy-header fade-in-scroll stagger-1">
+                    <div class="philosophy-eyebrow">The Philosophy</div>
+                    <h2 class="philosophy-title"></h2>
+                </div>
+
+                <!-- Bottom Left: Image -->
+                <div class="philosophy-image fade-in-scroll stagger-2">
+                    <img src="Asset/product.png" alt="BRICK. Product Shot" />
+                </div>
+
+                <!-- Bottom Right: Content -->
+                <div class="philosophy-text fade-in-scroll stagger-3">
+                    <div class="philosophy-content">
+                        <p>In a world drowning in features, complexity, and planned obsolescence, BRICK. stands as a
+                            monument to permanence.</p>
+                        <p>It is not smart. It will not connect to your devices. It will never ask for a software
+                            update. It is the purest distillation of form and function: a singular mass of fired earth,
+                            perfected over thousands of years, entirely devoid of compromise.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game" class="minigame-section fade-in-scroll">
+            <div class="content-wrapper">
+                <h2>The Proving Grounds</h2>
+                <p class="game-description">Stack 10 BRICKs to prove your worth and unlock an exclusive benefactor rate.
+                </p>
+
+                <div class="game-container">
+                    <div class="game-stats" aria-live="polite">
+                        <div class="stat-box">
+                            <span class="stat-label">Height</span>
+                            <span class="stat-value" id="current-score">0</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-label">Best</span>
+                            <span class="stat-value" id="best-score">0</span>
+                        </div>
+                    </div>
+
+                    <div class="canvas-wrapper">
+                        <canvas id="stack-game" width="400" height="500"></canvas>
+
+                        <div class="game-overlay" id="game-overlay">
+                            <h3 id="overlay-title">Ready?</h3>
+                            <p id="overlay-text">Click or press Space to drop.</p>
+                            <button class="primary-btn" id="game-action-btn">Begin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2 class="fade-in-scroll">Word on the Street</h2>
+            <div class="marquee-wrapper fade-in-scroll">
+                <div class="marquee-content">
+                    <div class="marquee-track">
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"I threw it through my window to see if it works. It works."
+                            </p>
+                            <p class="testimonial-author">— Satisfied Benefactor</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"It just sits there. Menacingly. I love it."</p>
+                            <p class="testimonial-author">— Minimalist Enthusiast</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"Broke my toe trying to kick it. 10/10 build quality."</p>
+                            <p class="testimonial-author">— Verified Purchaser</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"Finally, a smart device that doesn't need software updates."
+                            </p>
+                            <p class="testimonial-author">— Tech Reviewer</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"I bought 5,000 of them and built a house. Highly recommend."
+                            </p>
+                            <p class="testimonial-author">— Visionary Architect</p>
+                        </div>
+                    </div>
+
+                    <div class="marquee-track" aria-hidden="true">
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"I threw it through my window to see if it works. It works."
+                            </p>
+                            <p class="testimonial-author">— Satisfied Benefactor</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"It just sits there. Menacingly. I love it."</p>
+                            <p class="testimonial-author">— Minimalist Enthusiast</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"Broke my toe trying to kick it. 10/10 build quality."</p>
+                            <p class="testimonial-author">— Verified Purchaser</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"Finally, a smart device that doesn't need software updates."
+                            </p>
+                            <p class="testimonial-author">— Tech Reviewer</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">"I bought 5,000 of them and built a house. Highly recommend."
+                            </p>
+                            <p class="testimonial-author">— Visionary Architect</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acquire" class="buy fade-in-scroll">
+            <div class="content-wrapper">
+                <div class="pricing-card" id="pricing-card">
+                    <div class="card-label">Signature Edition</div>
+                    <div class="card-logo logo">BRICK<span class="accent-dot" aria-hidden="true">.</span></div>
+
+                    <div class="price-display">
+                        <span class="original-price" id="original-price"></span>
+                        <div class="live-price-block" aria-live="polite">
+                            <span class="currency">$</span>
+                            <span class="amount" id="live-price">499</span>
+                            <span class="currency-code">USD</span>
+                        </div>
+                    </div>
+
+                    <div class="stepper-controls">
+                        <button class="stepper-btn" id="stepper-minus" aria-label="Decrease quantity">−</button>
+                        <span class="quantity-display" id="quantity-display" aria-live="polite">1</span>
+                        <button class="stepper-btn" id="stepper-plus" aria-label="Increase quantity">+</button>
+                    </div>
+
+                    <button class="primary-btn purchase-btn" id="purchase-btn">Reserve Yours</button>
+
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <span class="badge-icon">📦</span>
+                            <span class="badge-text">Free shipping. Heavy, though.</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-icon">🧱</span>
+                            <span class="badge-text">100% Genuine Dirt.</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-icon">🛡️</span>
+                            <span class="badge-text">Lifetime Warranty (It's a rock).</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Toast Notification -->
+        <div id="toast-notification" class="toast">
+            <span class="toast-icon">🏆</span>
+            <span class="toast-message">Master Mason achieved — 10% off unlocked</span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">BRICK.</div>
+            <p>© 2026 BRICK. All rights reserved. Do not ingest.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

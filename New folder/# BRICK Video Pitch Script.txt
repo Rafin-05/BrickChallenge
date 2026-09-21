@@ -1,0 +1,55 @@
+# BRICK Video Pitch Script
+
+**[Visual: Start with your face, then switch to showing the top of the website]**
+
+"Hey everyone! I'm Imam Hasan Rafin.
+
+I had a pretty unusual challenge: take a completely ordinary red brick and make people see it as a luxury product. The real challenge wasn't just making it look premium—it was creating an experience that would keep people engaged. Most visitors decide whether to stay on a website within the first few seconds, so every interaction had to earn their attention.
+
+To achieve that, I went with a clean, minimal, cinematic aesthetic inspired by luxury product websites. Instead of relying on flashy effects, I focused on  animations, visuals, and interactive moments that encourage visitors to keep scrolling."
+
+---
+
+**[Visual: Switch to showing your AI prompts in Antigravity]**
+
+"For this project, I combined a few different AI tools.
+
+I used Veo 3 to generate the slow-motion cinematic background video of the falling brick, Nano Banana to create the image assets, and Antigravity to build the website itself.
+
+One thing I learned pretty quickly was that good prompting isn't about asking an AI to build everything at once. My prompts were very granular. I started with the basic layout, then refined the typography, spacing, and animations section by section. Few sections took several rounds of feedback and iteration to get the desired output"
+
+---
+
+**[Visual: Switch to the live website. Begin scrolling slowly.]**
+
+"Now let me show you the final result.
+
+The landing section immediately sets the mood with a cinematic video background that makes a simple brick feel surprisingly premium."
+
+---
+
+**[Visual: Scroll to the 'Craft' section and pause on the rotating brick.]**
+
+"As you scroll into the Craft section, the experience becomes more interactive. The brick stays pinned to the screen while rotating in 3D as each chapter appears. This creates the feeling that you're examining the product from every angle while learning about its craftsmanship."
+
+---
+
+**[Visual: Scroll to the minigame and play for a few seconds.]**
+
+"Further down the page is probably my favorite feature—the brick-stacking minigame.
+
+Visitors have to carefully stack ten bricks without letting the tower collapse. If they succeed, they unlock a discount code. It breaks up the browsing experience with something playful while giving users a reason to stay engaged."
+
+---
+
+**[Visual: Scroll to the pricing section.]**
+
+"Finally, everything leads into a simple, clean checkout experience. After all the storytelling and interaction, the purchase flow stays minimal and easy to navigate, keeping the focus on the product."
+
+---
+
+**[Visual: Return to your face or show the homepage one last time.]**
+
+"Overall, I'm really happy with how this project turned out. It challenged me to combine design, storytelling, interaction, and AI-assisted development into one cohesive experience—and it showed me how much presentation can transform even the simplest object.
+
+Thanks for watching!"
